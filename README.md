@@ -126,13 +126,17 @@ local BASE_FOLDER = ""
 And enter your telegram-id in admins table in [bot.lua](https://github.com/SEEDTEAM/file-manager-bot/blob/master/bot.lua#L19)
 ```lua
 local var = false
-  local admins = {123456789,987654321}-- put your id here
+  local admins = {YourID ,pika launcher id}-- put your id here
   for k,v in pairs(admins) do
 
 ```
 
 Save bot.lua
 
-Start the bot
+run this command in terminal
 
-`bash launch.sh`
+`chmod +x launch.sh`
+
+**Start the bot**
+
+`screen ./launch.sh`
