@@ -101,8 +101,8 @@ sudo apt-get install lua5.1
 Clone the bot
 
 ```
-git clone https://github.com/SEEDTEAM/file-manager-bot.git
-cd file-manager-bot
+git clone https://github.com/blackwolfadmin/server-manager.git
+cd server-manager 
 
 ```
 
@@ -115,15 +115,15 @@ Then enter your base folder and telegram bot api key in bot.lua (config part)
 
 ```lua
 
-local bot_api_key = ""
+local bot_api_key = "" ربات را قرار دهید api
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 -- Base folder like
 -- local BASE_FOLDER = "/home/imandaneshi/files/"
-local BASE_FOLDER = ""
+local BASE_FOLDER = "" خالی بماند
 
 ```
 
-And enter your telegram-id in admins table in [bot.lua](https://github.com/SEEDTEAM/file-manager-bot/blob/master/bot.lua#L19)
+And enter your telegram-id in admins table in [bot.lua](https://github.com/blackwolfadmin/server-manager/blob/master/bot.lua#L19)
 ```lua
 local var = false
   local admins = {YourID ,pika launcher id}-- put your id here
