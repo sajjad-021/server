@@ -115,7 +115,7 @@ Then enter your base folder and telegram bot api key in bot.lua (config part)
 
 ```lua
 
-local bot_api_key = "" ربات را قرار دهید api
+local bot_api_key = "" ربات را قرار دهید api توکن ربات
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 -- Base folder like
 -- local BASE_FOLDER = "/home/imandaneshi/files/"
