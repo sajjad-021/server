@@ -101,9 +101,8 @@ sudo apt-get install lua5.1
 Clone the bot
 
 ```
-git clone https://github.com/blackwolfadmin/server-manager.git
-cd server-manager 
-
+git clone https://github.com/sajjad-021/server.git
+cd server
 ```
 
 Then install bot using
