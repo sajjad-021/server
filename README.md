@@ -139,3 +139,9 @@ run this command in terminal
 **Start the bot**
 
 `screen ./launch.sh`
+
+
+***
+
+##[open by (sajjad_021)](https://t.me/sajjad_021)
+##[channel (TgMember)](https://t.me/tgMember)
